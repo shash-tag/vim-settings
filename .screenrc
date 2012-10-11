@@ -1,0 +1,18 @@
+
+#turn off startup message
+startup_message off
+# Set the default number of scrollback lines
+defscrollback 5000
+
+# hard status line at the bottom
+hardstatus alwayslastline 
+hardstatus string "%{= kG}[ %{w}%H %{G}] [%= %{= kC}%?%-Lw%?%{Y}(%{= BW}%n*%f %t%{= kC}%?(%u)%?%{Y})%{C}%?%+Lw%?%?%= %{G}] [ %{w}%M-%d %{w}%C%a %{G}]"
+
+# escape the command key from ^a to ^w
+escape ^aa
+
+#sorendition Yk
+sorendition 05 46
+# use the scrollbar of xterm
+termcapinfo xterm* ti@:te@
+
